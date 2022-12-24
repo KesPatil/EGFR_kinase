@@ -66,7 +66,7 @@ Analysis of the trajectories was done using python and mostly MDanalysis package
 
  The folder F_post_processing contains five codes: <br />
 
- + `EGFR_exon_19_correlation_matrices.ipynb` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
+ + `EGFR_exon_19_correlation_matrices.ipynb` is the code to compute correlation matrices and the hierarchical cluster<br />
  + `HBond_occupancy.ipynb` is the code to compute Hydrogen Bond occupancy <br />
  + `HDX.ipynb` is the code to compare Hydrogen Bond occupancy  with HDX experimental results <br />
  + `HDX_SASA.ipynb` is the code to compute SASA and compare it with HDX experimental results <br />

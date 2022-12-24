@@ -21,7 +21,7 @@ README:  There are four folders F_unbiased that includes the files to setup and 
 
 ***F_post_processing_codes***: This folder contain the python scripts used for post-processing trajectories data to calculate Hydrogen bond occupancy, SASA, Mutual information, Joint Mutual information, SHAP values  </br> 
 
-
+***F_structures***: This folder contains the .pdb structures of all the EGFR Exon-19 deletion systems.
 
 ## Forcefield implemented
 
@@ -36,7 +36,7 @@ All mutations are introduced using BioPhysCode Automacs routine based on MODELLE
 
 https://salilab.org/modeller/ <br />
 
-The INDUS code was obtained from 
+The INDUS code was obtained from https://github.com/patellab511/indus
 
 All the requisite files needed to setup and run the unbiased simulations are  included in the F_unbiased. We followed Bevan Lab Tutorials: "Lysozyme in water" example for equilibration and production <br />
 http://www.mdtutorials.com/gmx/lysozyme/index.html
@@ -66,11 +66,11 @@ Analysis of the trajectories was done using python and mostly MDanalysis package
 
  The folder F_post_processing contains five codes: <br />
 
- + `Aloop_helicity.ipynb` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
- + `Analysis_weighted_correlation.ipynb` is the code that computes boltzmann weighted SASA, Hbond and their log ratio plot  <br />
- + `Boltz_corr_plotter.ipynb` is the code to plot the boltzmann weighted correlation matrices  <br />
- + `Dihedral_compute.ipynb` is the code to compute the distribution of the dihedral angle representing the DFG flip  <br />
- + `FELandscape_plotter.ipynb` is the code to plot the free energy landscape  <br />
+ + `EGFR_exon_19_correlation_matrices.ipynb` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
+ + `HBond_occupancy.ipynb` is the code to compute Hydrogen Bond occupancy <br />
+ + `HDX.ipynb` is the code to compare Hydrogen Bond occupancy  with HDX experimental results <br />
+ + `HDX_SASA.ipynb` is the code to compute SASA and compare it with HDX experimental results <br />
+ + `HDX_SHAP_Mutual_info.ipynb` is the code to compute mutual information, joint mutual information and SHAP values  <br />
  
 
 ## Citations

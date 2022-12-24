@@ -57,7 +57,7 @@ Aggregate of 10ns INDUS is run and found to be enough for convergence in all the
 </p>
 
 <p align="justify">
-The output of the INDUS run is a .dat file (see F_indus/input_files/nt_ntw_k0.012_N2050.dat which is processed using wham1d.f to obtain unbiased free energy curves using INDUS_free_energy_analysis.ipynb <br />
+The output of the INDUS run is a .dat file (see F_indus/input_files/nt_ntw_k0.012_N2050.dat) which is processed using wham1d.f to obtain unbiased free energy curves using INDUS_free_energy_analysis.ipynb <br />
 </p>
 
 ### 3. Description of the post-processing codes <br />
